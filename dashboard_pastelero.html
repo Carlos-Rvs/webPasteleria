@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Dashboard Pastelero</title>
+</head>
+
+<body>
+    <div>
+        <h1>Bienvenido</h1>
+
+        <Label> Total de ordenes</Label>
+        <input type="text" name="idOrden" id="idOrden"><br>
+        <br><br><br>
+        <table border class="detail-order">
+            <tr>
+                <th>Id orden</th>
+                <th>Tipo pastel</th>
+                <th>Tipo decoración</th>
+                <th>ingredientes</th>
+                <th>Descripción Cliente</th>
+                <th>status</th>
+            </tr>
+            <tr>
+                <td>001</td>
+                <td>Envinado</td>
+                <td>conejitos de chocolate</td>
+                <td>cobertura: moka, Relleno: mermelada de fresa,</td>
+                <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, voluptates. Quia sunt impedit
+                    odit voluptate repellat exercitationem. Accusantium, consectetur asperiores? Reprehenderit quas
+                    saepe voluptates harum deserunt eligendi aliquid maiores laboriosam?</td>
+                <td>
+                    <div><input type="radio" name="estatus" id="pendiente">pendiente</div>
+                    <div><input type="radio" name="estatus" id="en_proceso">en proceso</div>
+                    <div><input type="radio" name="estatus" id="listo_para_entregar">listo para entregar</div>
+                </td>
+            </tr>
+        </table>
+        <br><br><br>
+        <table border>
+            <tr>
+                <th>ingredientes</th>
+                <th>Cantidad total</th>
+                <th>Cantidad disponible</th>
+            </tr>
+
+
+        </table>
+    </div>
+</body>
+
+</html>
