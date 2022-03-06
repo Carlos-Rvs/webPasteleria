@@ -3,6 +3,11 @@ html {
     scroll-behavior: smooth;
 }
 
+body{
+    background-color: #FAAFBA;
+}
+
+
 .header {
     display: flex;
     justify-content: flex-start;
@@ -85,10 +90,12 @@ nav>img {
 section>p.mensaje {
     text-align: center;
     font-size: xx-large;
+    text-shadow: 2px 1px white;
 }
 
 .main-content>h1, h2 {
     text-align: center;
+    text-shadow: 2px 1px white;
 
 }
 
@@ -101,7 +108,12 @@ section>p.mensaje {
     text-align: center;
     border-radius: 50px;
     border-style: solid;
+    border-color: aquamarine;
     padding: 10px
+}
+
+.tipo-pasteles>div> h3, p{
+    text-shadow: 1px 0 aquamarine;
 }
 
 .tipo-pasteles>div>img {
