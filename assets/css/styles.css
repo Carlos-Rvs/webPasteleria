@@ -39,6 +39,13 @@ nav>img {
     margin: 0 50px 0 50px;
     text-decoration: none;
     color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.material-icons{
+    margin-right: 5px;
 }
 
 .header-nav-elements>a:hover {
@@ -71,7 +78,8 @@ nav>img {
     text-align: center;
     position: relative;
     bottom: 350px;
-    color: salmon;
+    color: #f38e8e;
+    text-shadow: 4px 2px black;
 }
 
 section>p.mensaje {
