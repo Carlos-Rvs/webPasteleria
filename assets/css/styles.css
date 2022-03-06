@@ -1,5 +1,6 @@
 html {
     font-family: 'Lobster', cursive;
+    scroll-behavior: smooth;
 }
 
 .header {
